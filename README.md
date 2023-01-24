@@ -1,8 +1,12 @@
+# portingOS
+
+A docker container that installs and setup an environment to help dev's porting android devices to linux mobile Oses like Ubuntu Touch.
+
 ### How To Run
 
-How to clone this project:
+Install docker for your system:
 
-     gh repo clone ivoxavier/portingOS
+     https://www.docker.com/products/docker-desktop/
 
 Grant permission:
 
