@@ -1,6 +1,6 @@
 # portingOS
 
-A docker container that installs and setup an environment to help dev's porting android devices to linux mobile Oses like Ubuntu Touch.
+A docker container that installs and setup an environment to help dev's porting android devices to linux mobile OSes like Ubuntu Touch.
 
 ### How To Run
 
@@ -15,3 +15,10 @@ Grant permission:
 Run:
 
     ./run.sh
+
+
+### License
+
+2023 Ivo Xavier
+ 
+This program is licensed with GNU GPL v3.
