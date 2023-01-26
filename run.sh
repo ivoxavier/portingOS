@@ -18,7 +18,7 @@ if [[ -f .settings.txt && $is_configured == true ]];
 then
     echo "**Initializing portingOS**"
     #init docker container with access to usb ports
-    docker run -t -i --privileged -v /dev/bus/usb:/dev/bus/usb portingos bash
+    docker run -t -i --privileged -v /dev/bus/usb:/dev/bus/usb portingos bash || echo "Container was removed. Run: rm .settings.txt "
 else 
     create_settings_file
     echo "** Welcome to portingOS** "
