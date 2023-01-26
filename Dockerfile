@@ -3,7 +3,7 @@ FROM ubuntu:latest
 LABEL \ 
 maintainer="ixsvf <Ivo Xavier>" \
 description="portingOS is container that has all the dependencies to port an OS to a mobile device" \
-"portingOS.version"="0.1beta" 
+"portingOS.version"="0.1.1-beta" 
 
 #create argument to receive the target system
 ARG target_system
